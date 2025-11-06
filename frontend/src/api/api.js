@@ -1,4 +1,5 @@
-const API_URL = "http://localhost:5000/api"; // Replace with deployed URL
+// const API_URL = "http://localhost:5000/api"; // Replace with deployed URL
+const API_URL = "https://linkedin-clone-chi-eosin.vercel.app";
 
 export const api = async (
   endpoint,
