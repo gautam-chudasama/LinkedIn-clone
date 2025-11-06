@@ -9,9 +9,15 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-sm border-b sticky top-0 z-10">
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="flex items-center gap-3">
-          <div className="bg-blue-600 p-2 rounded-lg">
-            <User className="text-white" size={24} />
+        <div className="flex items-center gap-2">
+          <div className="p-2 rounded-4xl">
+            {/* <User className="text-white" size={24} /> */}
+            <img
+              src="https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=1764201600&v=beta&t=62UB1_bAFICk1w4pN8wriSPIUXftH4oLjm4wIn06eyk
+"
+              alt="linkedin"
+              className="w-7 rounded-xl"
+            />
           </div>
           <span className="text-xl font-bold text-gray-800">
             LinkedIn Clone
